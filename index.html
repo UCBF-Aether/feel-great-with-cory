@@ -3,101 +3,92 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Feel Great with Cory</title>
-<meta name="description" content="Feel Great with Cory: Unimate + Balance + time-based eating, explained in plain language, with the science, the products, and the honest limits. A storefront, not a checkout.">
+<title>Feel Great with Cory — See the Pattern</title>
+<meta name="description" content="Feel Great with Cory: stop guessing, start tracking. Three drinks, one window, let's go. Unimate + Balance + time-based eating, with Cory's own tracked numbers.">
 <style>
 *{box-sizing:border-box}
-body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;color:#16211c;background:#fff8ec;line-height:1.65}
-a{color:#0b5c3f}
-.wrap{max-width:900px;margin:0 auto;padding:0 20px}
-.topbar{background:#0e2e22;color:#fff;padding:14px 0}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;color:#f2ead8;background:#0a1a12;line-height:1.6}
+a{color:#ffd97a}
+.wrap{max-width:920px;margin:0 auto;padding:0 20px}
+.topbar{background:#06110b;color:#fff;padding:14px 0;border-bottom:2px solid #d9a441}
 .topbar .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .topbar a{color:#ffd97a;text-decoration:none;font-weight:700;margin-right:14px}
-.hero{background:linear-gradient(135deg,#0e2e22 0%,#14603f 55%,#d9a441 130%);color:#fff;padding:64px 0 56px}
-.hero .eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:.8em;color:#ffd97a;font-weight:800}
-.hero h1{font-size:clamp(2.2em,6vw,3.6em);line-height:1.05;margin:14px 0}
-.hero p.lede{font-size:1.25em;color:#e6f0e6;max-width:640px}
-.pill{display:inline-block;background:#ffd97a;color:#16211c;font-weight:800;padding:8px 14px;border-radius:999px;margin:6px 6px 0 0}
+.hero{background:radial-gradient(ellipse at top,#14603f 0%,#0e2e22 55%,#06110b 100%);color:#fff;padding:72px 0 60px;text-align:center}
+.hero .eyebrow{letter-spacing:.22em;text-transform:uppercase;font-size:.85em;color:#ffd97a;font-weight:800}
+.hero h1{font-size:clamp(2.4em,7vw,4.2em);line-height:1.02;margin:16px 0;text-transform:uppercase}
+.hero h1 span{color:#ffd97a}
+.hero p.lede{font-size:1.3em;color:#e6f0e6;max-width:680px;margin:0 auto}
+.btn{display:inline-block;background:#d9a441;color:#16211c;font-weight:900;padding:16px 26px;border-radius:999px;text-decoration:none;margin-top:16px;font-size:1.05em;text-transform:uppercase;letter-spacing:.03em}
+.btn.dark{background:#0e2e22;color:#fff;border:2px solid #d9a441}
+.btn.ghost{background:transparent;color:#ffd97a;border:2px solid #ffd97a}
+.card{background:#132a1e;border:1px solid #2a4a35;border-radius:18px;padding:26px;margin:24px 0}
+.card.gold{border-color:#d9a441;background:linear-gradient(135deg,#0e2e22,#14603f)}
+.card h2{margin-top:0;color:#ffd97a;text-transform:uppercase;letter-spacing:.02em}
+.big{font-size:clamp(2em,6vw,3.2em);font-weight:900;line-height:1;color:#ffd97a;margin:10px 0}
 .timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:28px 0}
 @media(max-width:700px){.timeline{grid-template-columns:1fr 1fr}}
-.step{background:#fff;border-radius:16px;padding:18px;box-shadow:0 8px 24px rgba(20,60,40,.10);border-top:6px solid #d9a441}
-.step:nth-child(2){border-top-color:#14603f}.step:nth-child(3){border-top-color:#7fb069}.step:nth-child(4){border-top-color:#16211c}
+.step{background:#132a1e;border:1px solid #2a4a35;border-radius:16px;padding:18px;border-top:6px solid #d9a441}
+.step:nth-child(2){border-top-color:#14603f}.step:nth-child(3){border-top-color:#7fb069}.step:nth-child(4){border-top-color:#ffd97a}
 .step .num{font-size:2em;font-weight:900;color:#d9a441;line-height:1}
-.card{background:#fff;border-radius:16px;padding:24px;margin:22px 0;box-shadow:0 8px 24px rgba(20,60,40,.08)}
-.btn{display:inline-block;background:#d9a441;color:#16211c;font-weight:800;padding:14px 20px;border-radius:999px;text-decoration:none;margin-top:10px}
-.btn.dark{background:#0e2e22;color:#fff}
-.small{font-size:.9em;color:#5a665f}
-.split{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-@media(max-width:700px){.split{grid-template-columns:1fr}}
-.is{background:#eaf3e6;border-radius:12px;padding:16px}
-.isnt{background:#fff0d6;border-radius:12px;padding:16px}
-footer{background:#0e2e22;color:#d8e2d5;padding:28px 0}
+.small{font-size:.9em;color:#b9c6ba}
+.center{text-align:center}
+footer{background:#06110b;color:#b9c6ba;padding:28px 0;border-top:2px solid #d9a441}
 footer .small{color:#b9c6ba}
 </style>
 </head>
 <body>
 <div class="topbar"><div class="wrap"><span><strong>Feel Great with Cory</strong> — independent Unicity distributor</span><span><a href="index.html">Home</a><a href="feel-great.html">Feel Great</a><a href="products.html">Products</a><a href="science.html">Science</a><a href="faq.html">FAQ</a></span></div></div>
 <section class="hero"><div class="wrap">
-<p class="eyebrow">Three drinks · One window · No diet list</p>
-<h1>I changed one thing, and it wasnt a diet.<br>It was timing.</h1>
-<p class="lede">Feel Great is not a willpower test. It is a daily rhythm you can actually keep — morning, lunch, biggest meal, then done. This site explains the whole system, the products behind it, and the science as Unicity presents it, including its limits.</p>
-<p><span class="pill">☀ Morning Unimate</span><span class="pill">◐ Lunch Unimate</span><span class="pill">● Balance with dinner</span><span class="pill">◑ Window closes</span></p>
+<p class="eyebrow">Hidden in plain sight · The pattern is your numbers</p>
+<h1>They don't want you to <span>see the pattern.</span></h1>
+<p class="lede">Tired. Hungry. Guessing. That's not a personal failure — that's the loop most people are stuck in, because nobody ever showed them the map.</p>
+<p class="lede" style="margin-top:14px"><strong>Stop guessing. Start tracking.</strong></p>
+<p><a class="btn" href="https://shop.unicity.com/usa/en/product/feel-great?hl=en-US&amp;referralCode=266058801&amp;sku=36133">Start with Feel Great →</a></p>
+<p><a class="btn ghost" href="https://www.facebook.com/groups/1307021378249820/">Not ready? Talk to me first →</a></p>
 </div></section>
 <main class="wrap">
+<div class="card">
+<h2>The loop</h2>
+<p>You eat, you crash, you crave, you eat again — and you never actually see what's happening inside. So you guess. You try a diet. You quit. You guess again.</p>
+<p><strong>Guessing is the trap.</strong> Tracking is the way out. Once you can see your own numbers move, you stop taking someone else's word for how you feel.</p>
+</div>
+<div class="card gold">
+<h2>My map — my numbers, not a promise</h2>
+<p>I was tired of guessing, tired of feeling run down, and I wanted a measurable shift I could actually track.</p>
+<p class="big">125 → 83</p>
+<p>My random glucose reading, as I recorded it at the time, went from a flagged 125 down to 83 while I used the Feel Great system.</p>
+<p>That is my starting point and my result. <strong>Yours starts with your own baseline — and we will track it together, so you can watch your own numbers move.</strong></p>
+<p class="small">Originally posted in the Biophysical Health Hub, May 21, 2026. <a href="https://facebook.com/groups/1307021378249820/permalink/1307029154915709/">Read the original Hub post →</a></p>
+</div>
+<div class="card">
+<h2>The routine they never laid out this plainly</h2>
+<p>No diet list. No complicated plan. Three drinks, one window, every day:</p>
 <div class="timeline">
 <div class="step"><div class="num">01</div><h3>Morning</h3><p>Unimate — purified yerba mate that supports energy and focus.</p></div>
 <div class="step"><div class="num">02</div><h3>Lunch</h3><p>Unimate again. Same drink, same rhythm, middle of the day.</p></div>
 <div class="step"><div class="num">03</div><h3>Biggest meal</h3><p>Balance — a fiber drink that supports satiety and healthy blood sugar already in the normal range.</p></div>
-<div class="step"><div class="num">04</div><h3>After dinner</h3><p>Stop eating. Give your body a break until tomorrow. Most often around 16:8.</p></div>
+<div class="step"><div class="num">04</div><h3>After dinner</h3><p>Window closed. Give your body a break until tomorrow. Most often around 16:8.</p></div>
 </div>
-<div class="card" style="border-left:8px solid #d9a441">
-<h2>My story — why I built the Hub</h2>
-<p>I did not start this because I wanted to be a wellness influencer. I started it because I was tired of guessing, tired of feeling fatigued, and I wanted a measurable shift I could actually track — not just a feeling.</p>
-<p>So I tracked my own numbers while I used the Feel Great system. My random glucose reading, as I recorded it at the time, went from a flagged 125 down to 83. No starvation diet, no prescription switch — just the three drinks and the window, and watching the markers move.</p>
-<p>That is my starting point and my result. Yours starts with your own baseline — and we will track it together, so you can watch your own numbers move. I share it because it is why I am here.</p>
-<p class="small">Originally posted in the Biophysical Health Hub, May 21, 2026. <a href="https://facebook.com/groups/1307021378249820/permalink/1307029154915709/">Read the original Hub post →</a></p>
+<p><a href="feel-great.html">Read the full routine →</a></p>
 </div>
-<div class="card" style="background:linear-gradient(135deg,#0e2e22,#14603f);color:#fff">
-<h2 style="color:#ffd97a">Not ready to buy? Talk to me first.</h2>
-<p style="color:#e6f0e6">If you are curious but not ready to order, do not just leave the page. Message me in the Hub, comment INFO, or send me a DM and I will walk you through the timing one on one, no pressure to buy.</p>
-<p><a class="btn" href="https://www.facebook.com/groups/1307021378249820/">Join the Biophysical Health Hub →</a></p>
-<p class="small" style="color:#b9c6ba">That is also where I share journeys in progress — with permission, honestly, and as they unfold, not only at the end. If you want to share your story, tell me first and I will only share it with your permission.</p>
+<div class="card center">
+<h2>Three drinks. One window. Let's go.</h2>
+<p>Two products, drunk as three drinks a day. That's the whole system — not a secret, just a map most people were never handed.</p>
+<p><a class="btn" href="https://shop.unicity.com/usa/en/product/feel-great?hl=en-US&amp;referralCode=266058801&amp;sku=36133">Shop the Feel Great System at Unicity</a></p>
+<p><a href="https://shop.unicity.com/usa/en/products?referralCode=266058801">Browse the full Unicity store →</a></p>
+<p class="small">Order through Unicity with my distributor link. Unicity handles checkout, payment, shipping, and returns. I do not hold inventory or take card details here. Prices are shown on Unicity's site at checkout, not quoted here.</p>
 </div>
 <div class="card">
-<h2>How the three drinks work together</h2>
-<p>Unicity presents the two products as a pair, drunk as three drinks a day, not as separate products. Unimate helps bridge the gap between meals — energy, focus, and appetite support while you are fasting. Balance helps handle the meal itself — a fiber matrix that gels in the gut, slows carbohydrate release, and supports fullness after you eat.</p>
-<p>That is the core idea: one drink for the fast, one drink for the meal, and a window that gives both a job to do. <a href="feel-great.html">Read the full routine →</a></p>
+<h2>Not ready to buy? Talk to me first.</h2>
+<p>If you are curious but not ready to order, do not just leave the page. Message me in the Hub, comment INFO, or send me a DM and I will walk you through the timing one on one, no pressure to buy.</p>
+<p><a class="btn ghost" href="https://www.facebook.com/groups/1307021378249820/">Join the Biophysical Health Hub →</a></p>
+<p class="small">That is also where I share journeys in progress — with permission, honestly, and as they unfold, not only at the end. If you want to share your story, tell me first and I will only share it with your permission.</p>
 </div>
 <div class="card">
 <h2>What it is, and what it is not</h2>
-<div class="split">
-<div class="is"><strong>It is:</strong><br>a supplement system you drink, plus a daily eating window you can actually keep.</div>
-<div class="isnt"><strong>It is not:</strong><br>a prescription drug, an injection, or a substitute for medical care. It does not diagnose, treat, cure, or prevent any disease.</div>
-</div>
-<p>No results are promised, and everybody is different.</p>
-</div>
-<div class="card">
-<h2>Compared to what? The honest category contrast</h2>
-<p>This is a non-prescription drink system. That is a different category from prescription GLP-1 medicines, which are injections or tablets, require a prescription, and have large clinical trials behind them — and also labelled serious risks, ongoing cost and insurance hurdles, and substantial weight regain after stopping in their own trials.</p>
-<p>I am <strong>not</strong> claiming Feel Great works as well as, or is safer than, a prescription medicine. There is no head-to-head trial for that, so I will not make that claim here. The contrast that is fair is format and category: drinks and a window, no prescription, no injection — versus a medicine with a prescription, an injection, and a very different evidence base. <a href="science.html">See the science, with its limits →</a></p>
-</div>
-<div class="card">
-<h2>More than just Feel Great</h2>
-<p>Feel Great is the core, but Unicity's core catalog around it covers muscle, hydration, bone, joint, skin, digestion, and everyday protein — all presented as companions, not as part of the daily Feel Great routine itself. <a href="products.html">Browse all the products →</a></p>
-</div>
-<div class="card" style="background:linear-gradient(135deg,#0e2e22,#14603f);color:#fff">
-<h2 style="color:#ffd97a">Shop at Unicity</h2>
-<p style="color:#e6f0e6">Order through Unicity with my distributor link. Unicity handles checkout, payment, shipping, and returns. I do not hold inventory or take card details here.</p>
-<p><a class="btn" href="https://shop.unicity.com/usa/en/product/feel-great?hl=en-US&amp;referralCode=266058801&amp;sku=36133">Shop the Feel Great System at Unicity</a></p>
-<p><a href="https://shop.unicity.com/usa/en/products?referralCode=266058801" style="color:#ffd97a">Browse the full Unicity store →</a></p>
-<p class="small" style="color:#b9c6ba">Prices are shown on Unicity's site at checkout, not quoted here, so you always see the current price from Unicity itself.</p>
-</div>
-<div class="card">
-<h2>Questions people ask</h2>
-<p><strong>Does Unimate have caffeine?</strong> Yes, about a cup of premium coffee per regular serving, as Unicity presents it. Decaf Unimate is under 15 mg per serving.</p>
-<p><strong>Can I take this with medication or a health condition?</strong> Talk to your provider first. That matters more than any routine on this page.</p>
-<p><strong>Is this a diet?</strong> No. The change here is timing: when you eat, not a list of forbidden foods.</p>
-<p><a href="faq.html">Read the full FAQ →</a></p>
+<p><strong>It is:</strong> a supplement system you drink, plus a daily eating window you can actually keep.</p>
+<p><strong>It is not:</strong> a prescription drug, an injection, or a substitute for medical care. It does not diagnose, treat, cure, or prevent any disease.</p>
+<p><a href="science.html">See the science, with its limits →</a> · <a href="products.html">Browse all the products →</a> · <a href="faq.html">Read the full FAQ →</a></p>
 </div>
 </main>
 <footer><div class="wrap">
